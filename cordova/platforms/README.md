@@ -1,0 +1,1 @@
+- add: 'cordova platform add android'
