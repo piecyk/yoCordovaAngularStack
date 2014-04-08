@@ -12,21 +12,23 @@
     - [iOS](https://developer.apple.com/xcode/)
     - [Android](http://developer.android.com/sdk/index.html#ExistingIDE)
     - etc...
-
-- clone: 'git clone git@github.com:piecyk/yoCordovaAngularStack.git'
-- next: 'cd yoCordovaAngularStack'
-- install: 'npm install'
-- and get Bower Packages: 'bower install'
-- run (make the magic): 'grunt'
-- for test: 'grunt test'
-- for dev: 'grunt serve'
-
-- next go to: 'cd yoCordovaAngularStack/cordova'
-- add: 'cordova platform add android' | 'cordova platform add ios'
-- run on phone: 'cordova run android'
-
-- or run on phone from yoCordovaAngularStack/ : 'grunt run' | for ios 'grunt run:i'
-- build and run on android phone: 'grunt go'
+    
+- Install dependencies:
+  - clone: 'git clone git@github.com:piecyk/yoCordovaAngularStack.git'
+  - next: 'cd yoCordovaAngularStack'
+  - install: 'npm install'
+  - and get Bower Packages: 'bower install'
+  - run (make the magic): 'grunt'
+  - for test: 'grunt test'
+  - for dev: 'grunt serve'
+- Install dependencies for cordova:
+  - next go to: 'cd yoCordovaAngularStack/cordova'
+  - add: 'cordova platform add android' or for ios: 'cordova platform add ios'
+- Run on phone:
+  - run on phone (from yoCordovaAngularStack/cordova): 'cordova run android'
+  - or run on phone from yoCordovaAngularStack/ : 'grunt run' or for ios: 'grunt run:i'
+- Build and run:
+  - build and run on android phone: 'grunt go'
 
 lib
 ------
@@ -36,4 +38,3 @@ lib
 3. https://github.com/ftlabs/fastclick
 4. http://gruntjs.com/
 5. http://bower.io/
-6. 
