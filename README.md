@@ -1,9 +1,12 @@
 # yoCordovaAngularStack
+[![Build Status](https://api.travis-ci.org/piecyk/yoCordovaAngularStack.png?branch=master)](https://travis-ci.org/piecyk/yoCordovaAngularStack) [![Dependency Status](https://david-dm.org/piecyk/yoCordovaAngularStack.png)](https://david-dm.org/piecyk/yoCordovaAngularStack)
+>Quick and simple stack for starting to hack with angularjs cordova with yo!
 
 ## Getting started
 - Make sure you have the following installed:
     - [yo](https://github.com/yeoman/yo): 'npm install -g yo'
     - [grunt-cli](https://github.com/gruntjs/grunt): 'npm install -g grunt-cli'
+    - []
     - [cordova-cli](https://github.com/apache/cordova-cli): 'npm install -g cordova'
     - [bower](https://github.com/bower/bower) : 'npm install -g bower'
     - Make sure Ruby (gem -v) and Compass (gem install compass) are installed.
@@ -30,11 +33,13 @@
 - Build and run:
   - build and run on android phone: 'grunt go'
 
-lib
-------
+## Lib:
 0. http://yeoman.io/
 1. http://angularjs.org/
 2. http://cordova.apache.org/docs/en/3.4.0/guide_cli_index.md.html
 3. https://github.com/ftlabs/fastclick
 4. http://gruntjs.com/
 5. http://bower.io/
+
+## Release History
+0.0.1 init hack  

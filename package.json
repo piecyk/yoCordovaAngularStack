@@ -1,6 +1,6 @@
 {
-  "name": "yomycar",
-  "version": "0.0.0",
+  "name": "yoCordovaAngularStack",
+  "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -28,6 +28,7 @@
     "jshint-stylish": "~0.1.3",
     "karma": "^0.12.4",
     "karma-chrome-launcher": "^0.1.3",
+    "karma-phantomjs-launcher": "^0.1.4",
     "karma-jasmine": "^0.1.5",
     "karma-ng-html2js-preprocessor": "^0.1.0",
     "karma-ng-scenario": "^0.1.0",
@@ -38,6 +39,6 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt karma"
   }
 }
