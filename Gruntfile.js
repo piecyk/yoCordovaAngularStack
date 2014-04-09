@@ -379,11 +379,11 @@ module.exports = function (grunt) {
   });
 
   grunt.registerMultiTask('run', 'run cordova.', function () {
-    
+
     var done = this.async();
     var spawn = require('child_process').spawn;
-    
-    process.chdir('cordova');    
+
+    process.chdir('cordova');
     var run = spawn('cordova', ['run', this.data]);
 
     run.stdout.on('data', function (data) {
@@ -397,7 +397,7 @@ module.exports = function (grunt) {
     run.on('close', function (code) {
       grunt.log.ok('child process exited with code ' + code);
       done(true);
-    });    
+    });
   });
 
 
